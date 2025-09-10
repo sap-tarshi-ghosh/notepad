@@ -1,0 +1,40 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio specific folders
+.vs/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Resharper and Rider
+*.DotSettings.user
+
+# Auto-generated files
+*.Designer.cs
+*.resx
+
+# Backup & temporary files
+*~
+*.bak
+*.tmp
+*.log
+
+# Publish output
+publish/
