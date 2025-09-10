@@ -5,7 +5,7 @@ This application supports multiple documents using tabs, basic file operations, 
 
 ## Features
 
-- **Notepad Interface:** Work with multiple documents simultaneously, each in its own tab.
+ **Notepad Interface:** Work with multiple documents simultaneously, each in its own tab.
 - **File Operations:**  
   - Create new documents  
   - Open existing text files  
