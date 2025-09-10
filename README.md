@@ -6,14 +6,14 @@ This application supports multiple documents using tabs, basic file operations, 
 ## Features
 
  **Notepad Interface:** Work with multiple documents simultaneously, each in its own tab.
-- **File Operations:**  
+ **File Operations:**  
   - Create new documents  
   - Open existing text files  
   - Save documents  
   - Exit application
-- **Text Formatting:**   
+ **Text Formatting:**   
   - Change text color
-- **Rich Text Editing:**  
+ **Rich Text Editing:**  
   - Each tab contains a fully-featured RichTextBox
 
 ## Screenshots
