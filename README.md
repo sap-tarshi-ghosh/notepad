@@ -18,6 +18,7 @@ This application supports multiple documents using tabs, basic file operations, 
 
 ## Screenshots
 ![notepad](https://github.com/sap-tarshi-ghosh/notepad/blob/main/img/img_code_exe.PNG?raw=true)
+![notepad exe](https://github.com/sap-tarshi-ghosh/notepad/blob/main/img/img_code.PNG?raw=true)
 ### Prerequisites
 
 - Visual Studio 2017 or later
