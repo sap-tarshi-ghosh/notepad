@@ -17,7 +17,7 @@ This application supports multiple documents using tabs, basic file operations, 
   - Each tab contains a fully-featured RichTextBox
 
 ## Screenshots
-![notepad](https://github.com/sap-tarshi-ghosh/notepad/blob/main/img/img_code_exe.png?raw=true)
+![notepad](https://github.com/sap-tarshi-ghosh/notepad/blob/main/img/img_code_exe.PNG?raw=true)
 ### Prerequisites
 
 - Visual Studio 2017 or later
