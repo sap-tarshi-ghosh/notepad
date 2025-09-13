@@ -9,7 +9,8 @@ This application supports multiple documents using tabs, basic file operations, 
  **File Operations:**  
   - Create new documents  
   - Open existing text files  
-  - Save documents  
+  - Save documents
+  - Close Tab option (either saving current data or not)
   - Exit application
  **Text Formatting:**   
   - Change text color
