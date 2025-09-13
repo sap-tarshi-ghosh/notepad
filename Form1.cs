@@ -41,9 +41,9 @@ namespace notepad
 
             newPage.Controls.Add(rtb);  //RichTextBox lives inside the tab.
 
-            Untitled1.Controls.Add(newPage); //opens the new tab abd puts the tab into TabControl (the one you dragged from Toolbox)
+            tabControl1.Controls.Add(newPage); //opens the new tab abd puts the tab into TabControl (the one you dragged from Toolbox)
 
-            Untitled1.SelectedTab = newPage;  //the new tab is getting active here
+            tabControl1.SelectedTab = newPage;  //the new tab is getting active here
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
@@ -55,7 +55,7 @@ namespace notepad
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                TabPage currentTab = Untitled1.SelectedTab; // selecting current tab
+                TabPage currentTab = tabControl1.SelectedTab; // selecting current tab
 
                 if (currentTab != null && currentTab.Controls.Count > 0)
                 {
@@ -79,7 +79,7 @@ namespace notepad
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TabPage currentTab = Untitled1.SelectedTab; //getting current tab
+            TabPage currentTab = tabControl1.SelectedTab; //getting current tab
 
             if (currentTab != null && currentTab.Controls.Count > 0)
             {
@@ -111,6 +111,51 @@ namespace notepad
         }
 
         private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeTabToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //in this section we were only cosing the tab without saving the current contents
+
+
+            //if (tabControl1.TabPages.Count > 0) //tab control feature
+            //{
+            //    TabPage currentTab = tabControl1.SelectedTab; //seleting the currently open tab
+            //    if (currentTab != null)
+            //    {
+            //        tabControl1.TabPages.Remove(currentTab); //closing that tab
+            //    }
+            //}
+
+
+            //in this section we are saving the contents of the tab before closing the tab
+
+            if (tabControl1.TabPages.Count > 0) //tab control feature
+            {
+                TabPage currentTab = tabControl1.SelectedTab; //seleting the currently open tab
+                if (currentTab != null)
+                {
+                    DialogResult result = MessageBox.Show("Sure about closing the current tab after saving the data ?",
+                        "Confirm",
+                        MessageBoxButtons.YesNoCancel,
+                        MessageBoxIcon.Question);
+                    if (result == DialogResult.Yes)
+                    {
+                        saveToolStripMenuItem_Click(sender, e);  //savint the content before saving
+                        tabControl1.TabPages.Remove(currentTab);
+                    }
+
+                    else if (result == DialogResult.No)
+                    {
+                        tabControl1.TabPages.Remove(currentTab); //closing that tab
+                    }
+                }
+            }
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }
