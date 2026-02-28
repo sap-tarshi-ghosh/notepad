@@ -12,8 +12,7 @@ This application supports multiple documents using tabs, basic file operations, 
   - Save documents
   - Close Tab option (either saving current data or not)
   - Exit application
- **Text Formatting:**   
-  - Change text color
+ **Text Formatti
  **Rich Text Editing:**  
   - Each tab contains a fully featured RichTextBox
 
