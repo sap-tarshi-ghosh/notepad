@@ -15,7 +15,7 @@ This application supports multiple documents using tabs, basic file operations, 
  **Text Formatting:**   
   - Change text color
  **Rich Text Editing:**  
-  - Each tab contains a fullyfeatured RichTextBox
+  - Each tab contains a fully featured RichTextBox
 
 ## Screenshots
 ![notepad](https://github.com/sap-tarshi-ghosh/notepad/blob/main/img/img_code_exe.PNG?raw=true)
