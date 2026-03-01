@@ -1,7 +1,7 @@
 # Notepad - Windows Forms Application
 
 A simple Notepad like text editor built with C# and Windows Forms (.NET Framework 4.7.2).  
-This application supports multiple documents using tabs, basic file operations, and text formatting (For now only text coloring).
+This application supports multiple documents using tabs, basic file operations, and text formatting (For now only text .
 
 ## Features
 
